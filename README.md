@@ -9,7 +9,8 @@ Install the plugin using below command
 
 Add the path of the mp3 or other music file in the environment variables for playing sounds on deployment success and failures.
 
-For MACOSX or Linux set environment variables for command line session
+### For MACOSX or Linux set environment variables for command line session
+---
 
 **For playing sounds on Successful deployment**
 
@@ -27,7 +28,8 @@ example command is below
 
 `export DEPLOY_FAILURE_SOUND="/Users/mohith.shrivastava/Downloads/Wrong-answer-sound-effect/Wrong-answer-sound-effect.mp3"`
 
-For Windows Command line set environment variables for current session
+### For Windows Command line set environment variables for current session
+---
 
 **For playing sounds on on Successful deployment**
 
@@ -37,7 +39,8 @@ For Windows Command line set environment variables for current session
 
 `set DEPLOY_FAILURE_SOUND="<path of your sound file>"`
 
-For Windows PowerShell set environment variables for current session
+### For Windows PowerShell set environment variables for current session
+---
 
 **For playing sounds on on Successful deployment**
 
