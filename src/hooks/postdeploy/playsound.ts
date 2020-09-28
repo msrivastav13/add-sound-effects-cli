@@ -18,7 +18,7 @@ type PostDeployResult = {
 };
 
 export const hook: HookFunction = async options => {
-    console.log('PostDepoy Hook Running');
+    // console.log('PostDepoy Hook Running');
     if (options?.result?.success) {
         playfile(process.env.DEPLOY_SUCCESS_SOUND);
     }
