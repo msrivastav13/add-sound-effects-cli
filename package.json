@@ -1,7 +1,7 @@
 {
   "name": "add-sound-effects-cli",
   "description": "adds sounds to salesforce cli upon successfull deploy and failures",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "msrivastav13",
   "bugs": "https://github.com//add-sound-effects-cli/issues",
   "dependencies": {
