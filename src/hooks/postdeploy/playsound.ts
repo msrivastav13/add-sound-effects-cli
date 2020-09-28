@@ -10,11 +10,11 @@ type HookOptions = {
     argv: string[];
     commandId: string;
     result?: PostDeployResult;
-  };
+};
 
 type PostDeployResult = {
-    success: boolean
-    numberComponentErrors: number
+    success: boolean;
+    numberComponentErrors: number;
 };
 
 export const hook: HookFunction = async options => {
@@ -23,7 +23,7 @@ export const hook: HookFunction = async options => {
         playfile(process.env.DEPLOY_SUCCESS_SOUND);
     }
     if (options?.result?.numberComponentErrors) {
-        if(options.result.numberComponentErrors >0) {
+        if (options.result.numberComponentErrors > 0) {
             playfile(process.env.DEPLOY_FAILURE_SOUND);
         }
     }
